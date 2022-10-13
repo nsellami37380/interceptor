@@ -8,12 +8,16 @@ import { LogInterceptor } from './core/log.interceptor';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { SecuredComponent } from './secured/secured.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SecuredComponent
+    SecuredComponent,
+    DashboardComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
